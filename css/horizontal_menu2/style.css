@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 400px;
+    min-height: 280px;
+    padding: 10px;
+
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Arial", sans-serif;
+
+    background-color: #ecf0f1;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #2980b9;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.main-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2980b9;
+    border-left: 1px #e5e5e5 solid;
+    margin-left: -1px;
+    border-left: 2px #2c3e50 solid;
+}
+
+.main-menu a:hover {
+    background-color: #2980b9;
+}
+
+.main-menu .active a {
+    background-color: #1abc9c;
+}
