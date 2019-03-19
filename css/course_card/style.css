@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: "Arial", sans-serif;
+
+    background-color: #ecf0f1;
+}
+
+.share {
+    background-color: #1abc9c;
+    width: 200px;
+    height: 250px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.share .head {
+    font-size: 20px;
+    line-height: 15px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.text {
+    line-height: 16px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.social_container {
+    margin-top: 25px;
+}
+
+.social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+
+    vertical-align: middle;
+
+    background-color: #16a085;
+    background-image: url(social-challenge.png);
+    background-repeat: no-repeat;
+}
+
+.social-fb {
+    background-position: 0px 0;
+}
+
+.social-tw {
+    background-position: -30px 0;
+}
+
+.social-gp {
+    background-position: -60px 0;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адрес картинки-спрайта — social-challenge.png
+
+#1abc9c
+#16a085
+*/
