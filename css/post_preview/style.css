@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 250px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    font-size: 12px;
+    line-height: 1.2;
+    font-family: "Arial", sans-serif;
+    color: #7f8c8d;
+
+    background-color: #ecf0f1;
+}
+
+.post-right {
+    margin-left: 75px;
+}
+
+.post-stats .icon {
+    width: 15px;
+    height: 15px;
+}
+
+.post {
+    position: relative;
+
+}
+
+.post-date, .post-type {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-bottom: 5px #bdc3c7 solid;
+    left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 55px;
+}
+
+.post-date {
+    background-color: #fff;
+    top: 0px;
+}
+
+.post-type {
+    background-color: #7f8c8d;
+    top: 70px;
+    background-image: url(quotes.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.post-title {
+    font-size: 20px;
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+
+.post-author {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.post-author a {
+    color: #2980b9;
+    text-decoration: none;
+
+}
+
+.post-stats {
+    display: inline-block;
+    font-size: 11px;
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+}
+
+.post-stats a {
+    text-decoration: none;
+    color: #2980b9;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.post-comments {
+    margin-left: 10px;
+}
+
+.post-text {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-bottom: 5px #bdc3c7 solid;
+    font-size: 12px;
+    width: 165px;
+}
+
+
+.icon {
+    background: url(post-challenge.png) no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.icon-tags {
+    background-position: 0px 0px;
+}
+
+.icon-comments {
+    background-position: -20px 0px;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адреса картинок:
+quotes.png
+post-challenge.png
+Картинка «кавычки» выровнена по центру
+
+#ffffff
+#7f8c8d
+#2980b9
+#bdc3c7
+*/
