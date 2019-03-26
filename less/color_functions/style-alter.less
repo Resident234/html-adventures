@@ -1,0 +1,23 @@
+@base-color: rgb(110, 27, 255);
+@alter-color: spin(@base-color, 60);
+
+.btn {
+  &-primary {
+    background-color: @alter-color;
+
+    &-hover,
+    &:hover {
+      background-color: lighten(@alter-color, 20%);
+    }
+
+    &-pressed,
+    &:active {
+      background-color: darken(@alter-color, 20%);
+    }
+
+    &-disabled {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: desaturate(lighten(@alter-color, 20%), 70%);
+    }
+  }
+}
