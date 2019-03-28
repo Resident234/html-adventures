@@ -1,0 +1,27 @@
+/* Используемые цвета:
+  yellowgreen, gold, lightseagreen
+*/
+
+svg {
+    border: 1px solid #dddddd;
+}
+
+polygon {
+    fill: none;
+}
+
+.polygon1 {
+    stroke: yellowgreen;
+    stroke-width: 5px;
+}
+
+.polygon2 {
+    stroke: gold;
+    stroke-width: 10px;
+}
+
+.polygon3 {
+    stroke: lightseagreen;
+    stroke-width: 30px;
+    stroke-opacity: 0.5;
+}
