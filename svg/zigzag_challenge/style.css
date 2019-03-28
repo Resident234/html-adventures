@@ -1,0 +1,29 @@
+/* Используемые цвета:
+  teal, lightseagreen, gold
+*/
+
+svg {
+    border: 1px solid #dddddd;
+}
+
+.polyline1 {
+    fill: none;
+    stroke-width: 80px;
+    stroke: teal;
+    stroke-linecap: square;
+}
+
+.polyline2 {
+    fill: none;
+    stroke-width: 50px;
+    stroke: lightseagreen;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.polyline3 {
+    fill: none;
+    stroke-width: 10px;
+    stroke: gold;
+    stroke-linejoin: bevel;
+}
