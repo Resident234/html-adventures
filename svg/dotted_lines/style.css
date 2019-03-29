@@ -1,0 +1,10 @@
+svg {
+    border: 1px solid #dddddd;
+}
+
+.shape-stroke {
+    fill: gold;
+    stroke: darkorange;
+    stroke-width: 100;
+    stroke-dasharray: 20;
+}
