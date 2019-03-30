@@ -1,4 +1,4 @@
 # html-adventures
 Adventure frontend developer
 
-TODO: response from htmlacademy
+# This repository contains solutions for frontend challenges from the https://htmlacademy.ru
