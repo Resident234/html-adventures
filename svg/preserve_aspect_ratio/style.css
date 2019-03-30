@@ -1,0 +1,22 @@
+.background {
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100% 100%;
+    border: 2px solid gold;
+}
+
+.no-viewbox {
+    background-image: url("no-viewbox.svg");
+}
+
+.has-viewbox {
+    background-image: url(has-viewbox.svg);
+
+}
+
+.has-viewbox-psa-none {
+    background-image: url(has-viewbox-psa-none.svg);
+
+}
