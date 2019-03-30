@@ -1,0 +1,36 @@
+/* Используемые цвета:
+  gold, tomato, darkorange, yellowgreen
+
+    <circle r="70" cx="100" cy="100" fill="none" stroke="lightgrey" stroke-width="55"></circle>
+
+    <circle r="70" cx="100" cy="100" fill="none" stroke="tomato" stroke-width="50"></circle>
+
+    <circle r="70" cx="100" cy="100" fill="none" stroke="white" stroke-width="50" stroke-dasharray="20 90"></circle>
+
+*/
+
+svg {
+    border: 1px solid #dddddd;
+}
+
+.circle1 {
+    fill: gold;
+
+}
+
+.circle2 {
+    stroke: darkorange;
+    stroke-width: 60;
+}
+
+.circle3 {
+    stroke: tomato;
+    stroke-width: 60;
+    stroke-dasharray: 30 30;
+}
+
+.circle4 {
+    stroke: yellowgreen;
+    stroke-width: 20;
+    fill: gold;
+}
