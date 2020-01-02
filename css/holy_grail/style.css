@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+.table-layout {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header,
+footer {
+    display: table-row;
+    height: 1px;
+}
+
+main {
+    border-spacing: 10px;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.content, .side {
+    display: table-cell;
+}
+
+.side {
+    width: 100px;
+}

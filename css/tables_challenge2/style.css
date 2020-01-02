@@ -1,0 +1,40 @@
+/* Небольшая подсказка, дальше сами */
+article {
+    width: 470px;
+    display: table;
+    background-image: url(img/wood.png);
+    border: 5px #686868 solid;
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+    margin: 10px;
+}
+
+ul {
+    display: table-row;
+}
+
+ul li {
+    display: table-cell;
+    border: 10px #686868 solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul:first-child li {
+    background-image: url(img/wall-1.png);
+    height: 95px;
+}
+
+ul:last-child li {
+    background-image: url(img/wall-2.png);
+    height: 90px;
+}
+
+
+ul li:first-child {
+    width: 110px;
+}
+
+ul li:last-child {
+    width: 150px;
+}
